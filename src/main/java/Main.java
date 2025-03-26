@@ -1,14 +1,15 @@
-// import static org.junit.jupiter.api.Assertions.assertEquals;
-
-// import org.junit.jupiter.api.Test;
 
 public class Main {
-  public static void main(String[] args) {
-    System.out.println("Hello world!");
-  }
-
-  // @Test
-  // void addition() {
-  //     assertEquals(2, 1 + 1);
-  // }
+    public static void main(String[] args) {
+        int suma = 0;
+        int zakres = 100; // Zakres liczb od 1 do 100
+        
+        for (int i = 1; i <= zakres; i++) {
+            if (i % 2 != 0) { // Sprawdzanie czy liczba jest nieparzysta
+                suma += i;
+            }
+        }
+        
+        System.out.println("Suma liczb nieparzystych od 1 do " + zakres + " wynosi: " + suma);
+    }
 }
