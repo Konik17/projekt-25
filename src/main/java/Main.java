@@ -13,4 +13,4 @@ public class Main {
         System.out.println("Suma liczb nieparzystych od 1 do " + zakres + " wynosi: " + suma);
     }
 }
-\\
+//
