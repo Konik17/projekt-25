@@ -2,10 +2,10 @@
 public class Main {
     public static void main(String[] args) {
         int suma = 0;
-        int zakres = 100; // Zakres liczb od 1 do 100
+        int zakres = 100; 
         
         for (int i = 1; i <= zakres; i++) {
-            if (i % 2 != 0) { // Sprawdzanie czy liczba jest nieparzysta
+            if (i % 2 != 0) { 
                 suma += i;
             }
         }
@@ -13,3 +13,4 @@ public class Main {
         System.out.println("Suma liczb nieparzystych od 1 do " + zakres + " wynosi: " + suma);
     }
 }
+\\
